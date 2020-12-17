@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Arial";
+    background-color: rgb(44, 43, 43);
+}
+
+.container{
+    width: 100%;
+    max-height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(201, 190, 190, 0.979);
+}
+header{
+    margin: 20px 0px 15px 0px;
+    font-size: 20px;
+}
+header p {
+    margin: 5px 0px 0px 25px;
+
+    font-size: 14px;
+}
+.box{
+    margin-top: 150px;
+    display: flex;
+}
+.box section .beats{
+    width: 120px;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.651);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(124, 118, 118, 0.781);
+}
+
